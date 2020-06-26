@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hamirmahal/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css",
+    "main.js": "/hamirmahal/React-JS-Crash-Course/static/js/main.76a60a18.chunk.js",
+    "main.js.map": "/hamirmahal/React-JS-Crash-Course/static/js/main.76a60a18.chunk.js.map",
+    "runtime-main.js": "/hamirmahal/React-JS-Crash-Course/static/js/runtime-main.db33a36c.js",
+    "runtime-main.js.map": "/hamirmahal/React-JS-Crash-Course/static/js/runtime-main.db33a36c.js.map",
+    "static/js/2.deb7e4a1.chunk.js": "/hamirmahal/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js",
+    "static/js/2.deb7e4a1.chunk.js.map": "/hamirmahal/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js.map",
+    "index.html": "/hamirmahal/React-JS-Crash-Course/index.html",
+    "precache-manifest.b914efe9595d59788d47a78471a28272.js": "/hamirmahal/React-JS-Crash-Course/precache-manifest.b914efe9595d59788d47a78471a28272.js",
+    "service-worker.js": "/hamirmahal/React-JS-Crash-Course/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/hamirmahal/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.deb7e4a1.chunk.js.LICENSE.txt": "/hamirmahal/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/hamirmahal/React-JS-Crash-Course/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db33a36c.js",
+    "static/js/2.deb7e4a1.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.76a60a18.chunk.js"
+  ]
+}
