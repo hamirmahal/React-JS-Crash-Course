@@ -2,7 +2,7 @@
   "name": "react_js_crash_course",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/hamirmahal/React-JS-Crash-Course",
+  "homepage": "https://hamirmahal.github.io/React-JS-Crash-Course/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
