@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css",
-    "main.js": "/React-JS-Crash-Course/static/js/main.9102de95.chunk.js",
-    "main.js.map": "/React-JS-Crash-Course/static/js/main.9102de95.chunk.js.map",
+    "main.js": "/React-JS-Crash-Course/static/js/main.e1444ca8.chunk.js",
+    "main.js.map": "/React-JS-Crash-Course/static/js/main.e1444ca8.chunk.js.map",
     "runtime-main.js": "/React-JS-Crash-Course/static/js/runtime-main.574ddb22.js",
     "runtime-main.js.map": "/React-JS-Crash-Course/static/js/runtime-main.574ddb22.js.map",
     "static/js/2.deb7e4a1.chunk.js": "/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js",
     "static/js/2.deb7e4a1.chunk.js.map": "/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js.map",
     "index.html": "/React-JS-Crash-Course/index.html",
-    "precache-manifest.1b41e1535480d658652850d7c7ab0eb6.js": "/React-JS-Crash-Course/precache-manifest.1b41e1535480d658652850d7c7ab0eb6.js",
+    "precache-manifest.c6701522bde30da86db6081cff0c17be.js": "/React-JS-Crash-Course/precache-manifest.c6701522bde30da86db6081cff0c17be.js",
     "service-worker.js": "/React-JS-Crash-Course/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.deb7e4a1.chunk.js.LICENSE.txt": "/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.574ddb22.js",
     "static/js/2.deb7e4a1.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9102de95.chunk.js"
+    "static/js/main.e1444ca8.chunk.js"
   ]
 }
