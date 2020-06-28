@@ -7,17 +7,17 @@ function App() {
   const todos = [
     {
       id: 1,
-      completed: false,
+      isCompleted: true,
       title: 'Fly to Cathedral Cove'
     },
     {
       id: 2,
-      completed: false,
+      isCompleted: false,
       title: 'Swim to Switzerland'
     },
     {
       id: 3,
-      completed: false,
+      isCompleted: false,
       title: 'Travel to Japan from California by foot'
     }
   ]
