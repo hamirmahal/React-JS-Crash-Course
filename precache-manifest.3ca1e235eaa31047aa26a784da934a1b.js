@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a02973fc54d0eae43adbde8c90c7e3bf",
+    "revision": "89c8c14f636264632a2fe6685952b7b0",
     "url": "/React-JS-Crash-Course/index.html"
   },
   {
-    "revision": "8c897d647084a7a83d77",
+    "revision": "c4ed5550f016a7bd23ad",
     "url": "/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "78fa87cbf0e39177f21f",
-    "url": "/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js"
+    "revision": "2dadea0c6dc677fdc2aa",
+    "url": "/React-JS-Crash-Course/static/js/2.5acd6fd7.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/React-JS-Crash-Course/static/js/2.deb7e4a1.chunk.js.LICENSE.txt"
+    "url": "/React-JS-Crash-Course/static/js/2.5acd6fd7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c897d647084a7a83d77",
-    "url": "/React-JS-Crash-Course/static/js/main.b89e123c.chunk.js"
+    "revision": "c4ed5550f016a7bd23ad",
+    "url": "/React-JS-Crash-Course/static/js/main.fc01fb08.chunk.js"
   },
   {
     "revision": "320bbb8710cefa78d8e3",
