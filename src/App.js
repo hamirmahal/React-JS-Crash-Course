@@ -7,7 +7,7 @@ function App() {
   const todos = [
     {
       id: 1,
-      isCompleted: true,
+      isCompleted: false,
       title: 'Fly to Cathedral Cove'
     },
     {
@@ -21,7 +21,6 @@ function App() {
       title: 'Travel to Japan from California by foot'
     }
   ]
-  console.log(todos);
   return (
     <div className="App">
       <header className="App-header">
