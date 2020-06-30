@@ -16,16 +16,26 @@ export default function TodoItem(props) {
             <input checked={isChecked}
             onChange={handleCheckboxChange}
             type='checkbox' />
-            {props.todoItemProps.title} {''}
-            <button style={stylingForButton}>🗑</button>
+            {props.todoElementProp.title} {''}
+            <button
+            onClick={   ()  =>
+                props.removeTodoProp(props.indexProp)
+            }
+            style={stylingForButton}> 🗑 </button>
         </h3>
     );
 }
 
 const stylingForButton = {
+    backgroundColor: '#282c34',
     border: 'none',
+    color: 'white',
+    cursor: 'pointer',
+    fontSize: '100%'
 }
 
 TodoItem.propTypes = {
-    todoItemProps: PropTypes.object.isRequired
+    indexProp: PropTypes.number.isRequired,
+    removeTodoProp: PropTypes.func.isRequired,
+    todoElementProp: PropTypes.object.isRequired
 }

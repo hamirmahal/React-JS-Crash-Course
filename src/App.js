@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Todos from './components/Todos';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const todos = [
+  const [todos, setTodos] = useState([
     {
       id: 1,
       isCompleted: false,
@@ -20,11 +20,17 @@ function App() {
       isCompleted: false,
       title: 'Travel to Japan from California by foot'
     }
-  ]
+  ]);
+  const removeTodo = index => {
+    const newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <Todos todoProps={todos}/>
+        <Todos  removeTodoPropFromAppJs={removeTodo}
+                todoProps={todos}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
