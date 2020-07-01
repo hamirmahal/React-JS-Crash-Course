@@ -13,15 +13,13 @@ export default function TodoItem(props) {
     }
     return (
         <h3 style={getStyle()}>
-            <input checked={isChecked}
+            <label> <input checked={isChecked}
             onChange={handleCheckboxChange}
             type='checkbox' />
-            {props.todoElementProp.title} {''}
-            <button
-            onClick={   ()  =>
-                props.removeTodoProp(props.indexProp)
-            }
-            style={stylingForButton}> 🗑 </button>
+            {props.todoElementProp.title} {''} </label>
+            <button onClick =   {   ()  =>
+            props.removeTodoProp(props.indexProp)   }
+            style={stylingForButton}>   🗑  </button>
         </h3>
     );
 }

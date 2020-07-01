@@ -1,3 +1,5 @@
+import AddTodo from './components/AddTodo';
+import Header from './components/layout/Header';
 import React, { useState } from 'react';
 import Todos from './components/Todos';
 import logo from './logo.svg';
@@ -29,6 +31,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Header />
+        <AddTodo />
         <Todos  removeTodoPropFromAppJs={removeTodo}
                 todoProps={todos}/>
         <img src={logo} className="App-logo" alt="logo" />
