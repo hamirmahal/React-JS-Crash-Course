@@ -23,6 +23,12 @@ function App() {
       title: 'Travel to Japan from California by foot'
     }
   ]);
+  const addTodo = title => {
+    const newTodos = [...todos, {
+      id: 4, isCompleted: false, title
+    }];
+    setTodos(newTodos);
+  }
   const removeTodo = index => {
     const newTodos = [...todos];
     newTodos.splice(index, 1);
@@ -32,7 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-        <AddTodo />
+        <AddTodo addTodoMethodProp  = {addTodo} />
         <Todos  removeTodoPropFromAppJs={removeTodo}
                 todoProps={todos}/>
         <img src={logo} className="App-logo" alt="logo" />

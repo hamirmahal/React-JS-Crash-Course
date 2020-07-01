@@ -4,7 +4,7 @@ import TodoItem from './TodoItem';
 
 export default function Todos(props) {
     return props.todoProps.map( (todoElement, index) =>  (
-        <TodoItem key={todoElement.id}
+        <TodoItem key={index}
         indexProp={index}
         removeTodoProp={props.removeTodoPropFromAppJs}
         todoElementProp={todoElement} />
