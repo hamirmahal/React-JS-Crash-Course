@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css",
-    "main.js": "/React-JS-Crash-Course/static/js/main.47e02a82.chunk.js",
-    "main.js.map": "/React-JS-Crash-Course/static/js/main.47e02a82.chunk.js.map",
+    "main.css": "/React-JS-Crash-Course/static/css/main.523f09c5.chunk.css",
+    "main.js": "/React-JS-Crash-Course/static/js/main.d6b1817c.chunk.js",
+    "main.js.map": "/React-JS-Crash-Course/static/js/main.d6b1817c.chunk.js.map",
     "runtime-main.js": "/React-JS-Crash-Course/static/js/runtime-main.574ddb22.js",
     "runtime-main.js.map": "/React-JS-Crash-Course/static/js/runtime-main.574ddb22.js.map",
-    "static/js/2.745dc666.chunk.js": "/React-JS-Crash-Course/static/js/2.745dc666.chunk.js",
-    "static/js/2.745dc666.chunk.js.map": "/React-JS-Crash-Course/static/js/2.745dc666.chunk.js.map",
+    "static/js/2.96e7a058.chunk.js": "/React-JS-Crash-Course/static/js/2.96e7a058.chunk.js",
+    "static/js/2.96e7a058.chunk.js.map": "/React-JS-Crash-Course/static/js/2.96e7a058.chunk.js.map",
     "index.html": "/React-JS-Crash-Course/index.html",
-    "precache-manifest.5fdc2d09a0dc56a58c5e55aa79e35309.js": "/React-JS-Crash-Course/precache-manifest.5fdc2d09a0dc56a58c5e55aa79e35309.js",
+    "precache-manifest.aa33909683f20842208b25b0b2d7f80d.js": "/React-JS-Crash-Course/precache-manifest.aa33909683f20842208b25b0b2d7f80d.js",
     "service-worker.js": "/React-JS-Crash-Course/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/React-JS-Crash-Course/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.745dc666.chunk.js.LICENSE.txt": "/React-JS-Crash-Course/static/js/2.745dc666.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/React-JS-Crash-Course/static/media/logo.5d5d9eef.svg"
+    "static/css/main.523f09c5.chunk.css.map": "/React-JS-Crash-Course/static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.96e7a058.chunk.js.LICENSE.txt": "/React-JS-Crash-Course/static/js/2.96e7a058.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/React-JS-Crash-Course/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.574ddb22.js",
-    "static/js/2.745dc666.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.47e02a82.chunk.js"
+    "static/js/2.96e7a058.chunk.js",
+    "static/css/main.523f09c5.chunk.css",
+    "static/js/main.d6b1817c.chunk.js"
   ]
 }
