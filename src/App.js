@@ -1,5 +1,7 @@
+import About from './components/pages/About';
 import AddTodo from './components/AddTodo';
 import Header from './components/layout/Header';
+import { HashRouter, Route } from 'react-router-dom';
 import React, { useState } from 'react';
 import Todos from './components/Todos';
 import logo from './logo.svg';
@@ -35,26 +37,35 @@ function App() {
     setTodos(newTodos);
   }
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-        <AddTodo addTodoMethodProp  = {addTodo} />
-        <Todos  removeTodoPropFromAppJs={removeTodo}
-                todoProps={todos}/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <div className="App">
+        <header className="App-header">
+          <Header />
+          <Route exact path='/' render={props => (
+            <React.Fragment>
+              <AddTodo addTodoMethodProp = {addTodo} />
+              <Todos removeTodoPropFromAppJs
+                = {removeTodo} todoProps={todos}/>
+            </React.Fragment>
+          )} />
+          <Route component={About} path='/about' />
+          <img src={logo} className="App-logo"
+          alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and
+            save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    </HashRouter>
   );
 }
 
