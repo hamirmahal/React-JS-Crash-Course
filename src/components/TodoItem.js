@@ -2,7 +2,9 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
 export default function TodoItem(props) {
-    const [isChecked, setChecked] = useState(false);
+    const [isChecked, setChecked] = useState(
+        props.todoElementProp.completed
+    );
     const getStyle = () => {
         return {
             textDecoration: isChecked && 'line-through'

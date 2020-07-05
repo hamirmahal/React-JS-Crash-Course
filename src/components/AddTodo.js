@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
 export default function AddTodo( { addTodoMethodProp } ) {
@@ -17,4 +18,8 @@ export default function AddTodo( { addTodoMethodProp } ) {
             <input type='submit' value='+' />
         </form>
     )
+}
+
+AddTodo.propTypes = {
+    addTodoMethodProp: PropTypes.func.isRequired
 }
