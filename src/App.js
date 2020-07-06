@@ -18,14 +18,22 @@ function App() {
           "application/json; charset=UTF-8"}  }
     ).then(r=>r.json()).then(j=>setTodos([...todos,j]))
   }
-  const removeTodo = index => {
+  const changeTodoStatus = i => {
     const newTodos = [...todos];
-    newTodos.splice(index, 1);
+    newTodos[i].completed = !newTodos[i].completed;
     setTodos(newTodos);
+  }
+  const removeTodo = i => {
+    fetch(
+    `https://jsonplaceholder.typicode.com/todos/${i}`, 
+    { method: 'DELETE'  } ).then(response =>  {
+      const newTodos = [...todos];
+      newTodos.splice(i, 1);
+      setTodos(newTodos);                     } );
   }
   useEffect(() => {
     fetch(
-  'https://jsonplaceholder.typicode.com/todos?_limit=1'
+  'https://jsonplaceholder.typicode.com/todos?_limit=9'
     ).then(r => r.json()).then(json => setTodos(json));
   }, [])
   return (
@@ -36,8 +44,9 @@ function App() {
           <Route exact path='/' render={props => (
             <React.Fragment>
               <AddTodo addTodoMethodProp = {addTodo} />
-              <Todos removeTodoPropFromAppJs
-                = {removeTodo} todoProps={todos}/>
+              <Todos changeTodo = {changeTodoStatus}
+              removeTodoPropFromAppJs = {removeTodo}
+              todoProps={todos}/>
             </React.Fragment>
           )} />
           <Route component={About} path='/about' />

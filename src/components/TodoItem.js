@@ -1,24 +1,22 @@
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function TodoItem(props) {
-    const [isChecked, setChecked] = useState(
-        props.todoElementProp.completed
-    );
+    const { completed, title } = props.todoElementProp;
     const getStyle = () => {
         return {
-            textDecoration: isChecked && 'line-through'
+            textDecoration: completed && 'line-through'
         }
-    }
-    function handleCheckboxChange(event) {
-        setChecked(event.target.checked);
     }
     return (
         <h3 style={getStyle()}>
-            <label> <input checked={isChecked}
-            onChange={handleCheckboxChange}
-            type='checkbox' />
-            {props.todoElementProp.title} {''} </label>
+            <label>
+                <input 
+                    checked =   {   completed   }
+                    onChange=   {   ()  =>  
+                        props.change(props.indexProp) }
+                    type='checkbox' />  {title} {''}
+            </label>
             <button onClick =   {   ()  =>
             props.removeTodoProp(props.indexProp)   }
             style={stylingForButton}>   🗑  </button>
@@ -35,6 +33,7 @@ const stylingForButton = {
 }
 
 TodoItem.propTypes = {
+    change: PropTypes.func.isRequired,
     indexProp: PropTypes.number.isRequired,
     removeTodoProp: PropTypes.func.isRequired,
     todoElementProp: PropTypes.object.isRequired
