@@ -4,7 +4,7 @@ import Header from './components/layout/Header';
 import { HashRouter, Route } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import Todos from './components/Todos';
-import logo from './logo.svg';
+import clock from './publicdomainclock.png';
 import './App.css';
 
 function App() {
@@ -41,6 +41,8 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Header />
+          <img src={clock} className="App-logo"
+          alt="clockface sans numbers" /> <br />
           <Route exact path='/' render={props => (
             <React.Fragment>
               <AddTodo addTodoMethodProp = {addTodo} />
@@ -50,19 +52,14 @@ function App() {
             </React.Fragment>
           )} />
           <Route component={About} path='/about' />
-          <img src={logo} className="App-logo"
-          alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and
-            save to reload.
-          </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href=
+"https://github.com/hamirmahal/React-JS-Crash-Course"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+          View the source code on Hamir Mahal's GitHub
           </a>
         </header>
       </div>

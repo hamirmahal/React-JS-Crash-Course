@@ -25,7 +25,7 @@ export default function TodoItem(props) {
 }
 
 const stylingForButton = {
-    backgroundColor: '#282c34',
+    background: 'none',
     border: 'none',
     color: 'white',
     cursor: 'pointer',
