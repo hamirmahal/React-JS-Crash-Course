@@ -46,6 +46,7 @@ function App() {
           <Route exact path='/' render={props => (
             <React.Fragment>
               <AddTodo addTodoMethodProp = {addTodo} />
+              <br />
               <Todos changeTodo = {changeTodoStatus}
               removeTodoPropFromAppJs = {removeTodo}
               todoProps={todos}/>
